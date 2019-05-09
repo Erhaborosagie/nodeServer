@@ -4,7 +4,8 @@
   "description": "A basic node server app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "dev": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/Erhaborosagie/nodeServer/issues"
   },
-  "homepage": "https://github.com/Erhaborosagie/nodeServer#readme"
+  "homepage": "https://github.com/Erhaborosagie/nodeServer#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
 }
